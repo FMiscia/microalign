@@ -111,7 +111,7 @@ Team.defaultProps = {
             twitterLink: "#",
             behanceLink: "#",
             name: "Simone Caldarelli",
-            designation: "CEO and CO_FOUNDER",
+            designation: "CEO and CO-FOUNDER",
             image: require("../assets/img/team-1.jpg"),
         },
         {

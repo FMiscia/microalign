@@ -974,7 +974,7 @@ textarea.form-control {
 ==================================== */
 .funfacts-area {
     background: {
-        image: url(../../assets/img/parallax.jpg);
+        
         attachment: fixed;
         position: center center;
         size: cover;
@@ -2262,6 +2262,11 @@ section {
         left: 0;
     }
 }
+
+button {
+  outline: "none";
+  border: "none";
+}
 /* ==============
     Start Repair Main Banner CSS 
 ==================================== */
@@ -2434,6 +2439,7 @@ section {
     }
 }
 .single-repair-box {
+    min-height: 500px;
     text-align: center;
     border-radius: 5px;
     background-color: $white-color;
@@ -2676,7 +2682,7 @@ section {
     z-index: 1;
     background: {
         color: $repair-main-color;
-        image: url(../img/services-bg.jpg);
+        image: url(../img/pattern-3.png);
         position: center center;
         size: contain;
         repeat: repeat;
@@ -3206,7 +3212,6 @@ Start Repair Partner CSS
 .repair-subscribe-content {
     background: {
         color: $repair-main-color;
-        image: url(../img/services-bg.jpg);
         position: center center;
         size: cover;
         repeat: no-repeat;

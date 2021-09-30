@@ -42,12 +42,16 @@ class Footer extends React.Component {
                         <div className="col-lg-3 col-md-6">
                             <div className="single-footer-widget">
                                 <div className="logo">
-                                    <Link to="repair-index.html">
-                                        MICRO<span>ALIGN</span>
+                                    <Link to="#">
+                                        <img
+                                            height={30}
+                                            src={require("../assets/img/logo-white.png")}
+                                            alt="core"
+                                        />
                                     </Link>
                                 </div>
                                 <ul className="social-links">
-                                    <li>
+                                    {/* <li>
                                         <Link to="#">
                                             <i className="icofont-facebook"></i>
                                         </Link>
@@ -61,11 +65,11 @@ class Footer extends React.Component {
                                         <Link to="#">
                                             <i className="icofont-instagram"></i>
                                         </Link>
-                                    </li>
+                                    </li> */}
                                     <li>
-                                        <Link to="#">
+                                        <a href="https://nl.linkedin.com/company/microalign">
                                             <i className="icofont-linkedin"></i>
-                                        </Link>
+                                        </a>
                                     </li>
                                 </ul>
                             </div>

@@ -7,6 +7,7 @@ import RepairBoxes from '../components/RepairBoxes';
 import About from '../components/About';
 import Services from '../components/Services';
 import Team from '../components/Team';
+import Blog from '../components/Blog';
  
 class HomeSeven extends React.Component {
 
@@ -37,8 +38,8 @@ class HomeSeven extends React.Component {
                 <Pricing />
 
                 <Partner />
-                
-                <Blog /> */}
+                */}
+                <Blog />
 
                 <Footer />
             </React.Fragment>

@@ -32,7 +32,7 @@ class Services extends React.Component {
         return (
             <section
                 id="services"
-                className="repair-services-area ptb-100 pb-0"
+                className="repair-services-area ptb-100 pb-15"
             >
                 <div className="container">
                     <div className="section-title text-center">
@@ -91,7 +91,7 @@ class Services extends React.Component {
                         </OwlCarousel>
                     </div>
 
-                    <div className="repair-services-inner">
+                    {/* <div className="repair-services-inner">
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="single-inner-services">
@@ -120,7 +120,7 @@ class Services extends React.Component {
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
                 </div>
             </section>
         )

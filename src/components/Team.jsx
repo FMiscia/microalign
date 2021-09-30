@@ -11,26 +11,10 @@ class Team extends Component {
                     <div className="pic">
                         <img src={team.image} alt="team" />
                         <ul className="social">
-                            {team.fbLink && (
+                            {team.linkedinLink && (
                                 <li>
-                                    <a href={team.fbLink}>
-                                        <i className="icofont-facebook" />
-                                    </a>
-                                </li>
-                            )}
-
-                            {team.twitterLink && (
-                                <li>
-                                    <a href={team.twitterLink}>
-                                        <i className="icofont-twitter" />
-                                    </a>
-                                </li>
-                            )}
-
-                            {team.behanceLink && (
-                                <li>
-                                    <a href={team.behanceLink}>
-                                        <i className="icofont-behance" />
+                                    <a href={team.linkedinLink}>
+                                        <i className="icofont-linkedin"></i>
                                     </a>
                                 </li>
                             )}
@@ -107,52 +91,42 @@ Team.defaultProps = {
 
     teamsData: [
         {
-            fbLink: "",
-            twitterLink: "#",
-            behanceLink: "#",
+            linkedinLink:
+                "https://nl.linkedin.com/in/simone-cardarelli-67536115a",
             name: "Simone Caldarelli",
             designation: "CEO and CO-FOUNDER",
-            image: require("../assets/img/team-1.jpg"),
+            image: require("../assets/img/Simone.jfif"),
         },
         {
-            fbLink: "#",
-            twitterLink: "#",
-            behanceLink: "",
+            linkedinLink: "https://it.linkedin.com/in/marco-fattori-831434a9",
             name: "Marco Fattori",
             designation: "Electronics – CO-FOUNDER",
-            image: require("../assets/img/team-2.jpg"),
+            image: require("../assets/img/Marco.jfif"),
         },
         {
-            fbLink: "#",
-            twitterLink: "",
-            behanceLink: "#",
+            linkedinLink:
+                "https://nl.linkedin.com/in/nicola-calabretta-23142119",
             name: "Nicola Calabretta",
             designation: "Optical system – CO-FOUNDER",
-            image: require("../assets/img/team-3.jpg"),
+            image: require("../assets/img/Nicola.png"),
         },
         {
-            fbLink: "#",
-            twitterLink: "#",
-            behanceLink: "#",
+            linkedinLink: "https://nl.linkedin.com/in/jaap-verheggen",
             name: "Jaap Verheggen",
             designation: "R&D specialist",
-            image: require("../assets/img/team-4.jpg"),
+            image: require("../assets/img/Jaap.jfif"),
         },
         {
-            fbLink: "#",
-            twitterLink: "#",
-            behanceLink: "#",
+            linkedinLink: "https://nl.linkedin.com/in/dariolocascio",
             name: "Dario Lo Cascio",
             designation: "Business developer",
-            image: require("../assets/img/team-5.jpg"),
+            image: require("../assets/img/Dario.jfif"),
         },
         {
-            fbLink: "#",
-            twitterLink: "#",
-            behanceLink: "#",
+            linkedinLink: "https://nl.linkedin.com/in/cees-luijendijk-3a8798",
             name: "Cees Luijendijk",
-            designation: "Strategy developer",
-            image: require("../assets/img/team-5.jpg"),
+            designation: "Financial advisor and strategy developer",
+            image: require("../assets/img/Cees.jfif"),
         },
     ],
 }

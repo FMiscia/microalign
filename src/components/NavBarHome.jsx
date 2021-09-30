@@ -44,7 +44,13 @@ class NavBar extends Component {
                     <Container>
                         <LinkContainer exact to="/">
                             <Navbar.Brand className="navbar-brand">
-                                Micro<span>Align</span>
+                                <div className="logo">
+                                    <img
+                                        height={30}
+                                        src={require("../assets/img/logo.png")}
+                                        alt="core"
+                                    />
+                                </div>
                             </Navbar.Brand>
                         </LinkContainer>
 
@@ -104,6 +110,18 @@ class NavBar extends Component {
                                         onClick={this.closeNavbar}
                                     >
                                         Team
+                                    </Link>
+                                    <Link
+                                        activeClass="active"
+                                        to="news"
+                                        spy={true}
+                                        smooth={true}
+                                        offset={-70}
+                                        duration={800}
+                                        className="nav-link"
+                                        onClick={this.closeNavbar}
+                                    >
+                                        News
                                     </Link>
                                 </React.Fragment>
                             </Nav>

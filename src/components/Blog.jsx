@@ -3,13 +3,14 @@ import Modal from "react-modal"
 
 const customStyles = {
     content: {
-        top: "50%",
+        top: "55%",
         left: "50%",
         right: "auto",
         bottom: "auto",
         marginRight: "-50%",
         transform: "translate(-50%, -50%)",
         width: "70%",
+        height: "70vh",
         display: "flex",
         flexDirection: "column",
     },
@@ -38,13 +39,13 @@ const Blog = (props) => {
     return (
         <section id="news" className="repair-blog-area ptb-100">
             <Modal
+                ariaHideApp={false}
                 isOpen={modalIsOpen}
                 onAfterOpen={afterOpenModal}
                 onRequestClose={closeModal}
                 style={customStyles}
                 contentLabel="Example Modal"
                 shouldCloseOnEsc
-                ariaHideApp
             >
                 <a style={{alignSelf: 'flex-end'}}href="/" onClick={closeModal}>
                     CLOSE

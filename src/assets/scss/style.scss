@@ -2678,13 +2678,12 @@ button {
     Start Repair Services CSS 
 ==================================== */
 .repair-services-area {
-    position: relative;
     z-index: 1;
     background: {
         color: $repair-main-color;
         image: url(../img/pattern-3.png);
         position: center center;
-        size: contain;
+        size: cover;
         repeat: repeat;
     }
     .section-title {

@@ -32,9 +32,9 @@ class Services extends React.Component {
         return (
             <section
                 id="services"
-                className="repair-services-area ptb-100 pb-15"
+                className="repair-services-area ptb-100"
             >
-                <div className="container">
+                <div className="container pb-15">
                     <div className="section-title text-center">
                         <h3>What we do</h3>
                         <p>

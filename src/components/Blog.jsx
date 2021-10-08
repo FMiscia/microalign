@@ -30,7 +30,7 @@ const Blog = (props) => {
     useEffect(() => {
         fetch(`${BASE_URL}/api/collections/get/News?token=${TOKEN}`)
             .then((res) => res.json())
-            .then((res) => setNews(res.entries.filter(it => it.published)))
+            .then((res) => setNews(res.entries.filter((it) => it.published)))
             .catch((e) => console.log(e))
     }, [])
 
@@ -140,20 +140,18 @@ const Blog = (props) => {
                                         <li>
                                             {new Date(it.date).toDateString()}
                                         </li>
-                                        {!!it.content && (
-                                            <li>
-                                                <a
-                                                    href="/"
-                                                    onClick={(args) => {
-                                                        openModal(args)
-                                                        setCurrentNews(it)
-                                                    }}
-                                                    className="read-more-btn"
-                                                >
-                                                    Read More
-                                                </a>
-                                            </li>
-                                        )}
+                                        <li>
+                                            <a
+                                                href="/"
+                                                onClick={(args) => {
+                                                    openModal(args)
+                                                    setCurrentNews(it)
+                                                }}
+                                                className="read-more-btn"
+                                            >
+                                                Read More
+                                            </a>
+                                        </li>
                                     </ul>
                                 </div>
                             </div>

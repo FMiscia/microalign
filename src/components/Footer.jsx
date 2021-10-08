@@ -4,10 +4,10 @@ import { Link } from "react-router-dom"
 class Footer extends React.Component {
     render() {
         return (
-            <footer className="repair-footer-area">
-                {/* <section className="repair-subscribe-area">
+            <footer className="info-footer-area">
+                {/* <section className="info-subscribe-area">
                     <div className="container">
-                        <div className="repair-subscribe-content">
+                        <div className="info-subscribe-content">
                             <h2>Subscribe to our newsletter</h2>
 
                             <form className="newsletter-form" data-toggle="validator">
@@ -147,7 +147,7 @@ class Footer extends React.Component {
                     </div>
                 </div>
 
-                <div className="repair-copyright-area">
+                <div className="info-copyright-area">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6 col-md-6">

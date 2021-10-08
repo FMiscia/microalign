@@ -3,7 +3,7 @@ import React from 'react';
 import NavBarHome from "../components/NavBarHome";
 import Footer from "../components/Footer";
 import HomeSlides from '../components/HomeSlides';
-import RepairBoxes from '../components/RepairBoxes';
+import Boxes from '../components/Boxes';
 import About from '../components/About';
 import Services from '../components/Services';
 import Team from '../components/Team';
@@ -23,22 +23,14 @@ class HomeSeven extends React.Component {
 
                 <HomeSlides />
 
-                <RepairBoxes />
+                <Boxes />
 
                 <About />
 
                 <Services />
 
                 <Team />
-
-                {/* <Gallery />
-
-                <Feedback />
-
-                <Pricing />
-
-                <Partner />
-                */}
+                
                 <Blog />
 
                 <Footer />

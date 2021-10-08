@@ -32,7 +32,7 @@ class Services extends React.Component {
         return (
             <section
                 id="services"
-                className="repair-services-area ptb-100"
+                className="info-services-area ptb-100"
             >
                 <div className="container pb-15">
                     <div className="section-title text-center">
@@ -60,23 +60,23 @@ class Services extends React.Component {
                     </div>
                     <div className="row">
                         <OwlCarousel
-                            className="repair-services-slides owl-carousel owl-theme"
+                            className="info-services-slides owl-carousel owl-theme"
                             {...options}
                         >
                             <div className="col-lg-12 col-md-12">
-                                <div className="single-repair-services">
+                                <div className="single-info-services">
                                     <h3>Si-Photonics wafer probe stations </h3>
                                 </div>
                             </div>
 
                             <div className="col-lg-12 col-md-12">
-                                <div className="single-repair-services">
+                                <div className="single-info-services">
                                     <h3>Fiber alignment manufacturing</h3>
                                 </div>
                             </div>
 
                             <div className="col-lg-12 col-md-12">
-                                <div className="single-repair-services">
+                                <div className="single-info-services">
                                     <h3>
                                         Fiber array-to-photonic chip assembly
                                     </h3>
@@ -84,14 +84,14 @@ class Services extends React.Component {
                             </div>
 
                             <div className="col-lg-12 col-md-12">
-                                <div className="single-repair-services">
+                                <div className="single-info-services">
                                     <h3>Beam steering for optical switching</h3>
                                 </div>
                             </div>
                         </OwlCarousel>
                     </div>
 
-                    {/* <div className="repair-services-inner">
+                    {/* <div className="info-services-inner">
                         <div className="row">
                             <div className="col-lg-6">
                                 <div className="single-inner-services">

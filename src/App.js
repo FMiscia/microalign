@@ -39,30 +39,6 @@ const App = () => {
                                 >
                                     <section className="route-section">
                                         <Home />
-                                        {/* <Switch location={location}>
-                                            <Route
-                                                path="/about"
-                                                component={About}
-                                            />
-                                            <Route
-                                                path="/services"
-                                                component={Services}
-                                            />
-                                            <Route
-                                                path="/team"
-                                                component={Team}
-                                            />
-                                            <Route
-                                                path="/home"
-                                                component={Home}
-                                            />
-                                            <Route
-                                                path="/"
-                                                exact
-                                                component={Home}
-                                            />
-                                            <Redirect to="/not-found" />
-                                        </Switch> */}
                                     </section>
                                 </CSSTransition>
                             </TransitionGroup>

@@ -2286,7 +2286,7 @@ section.route-section {
 /* ==============
     Start Repair Main Banner CSS 
 ==================================== */
-.repair-main-banner {
+.info-main-banner {
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -2296,7 +2296,7 @@ section.route-section {
   padding-bottom: 300px;
 }
 
-.repair-main-banner::before {
+.info-main-banner::before {
   content: '';
   position: absolute;
   bottom: 0;
@@ -2308,7 +2308,7 @@ section.route-section {
   opacity: .60;
 }
 
-.repair-banner-content h2 {
+.info-banner-content h2 {
   color: #ffffff;
   line-height: 1.2;
   font-size: 55px;
@@ -2316,14 +2316,14 @@ section.route-section {
   margin-bottom: 25px;
 }
 
-.repair-banner-content p {
+.info-banner-content p {
   max-width: 550px;
   margin-bottom: 25px;
   color: #ffffff;
   font-size: 17px;
 }
 
-.repair-banner-content .btn {
+.info-banner-content .btn {
   text-transform: uppercase;
 }
 
@@ -2376,7 +2376,7 @@ section.route-section {
   background-image: url(../img/main-banner3.jpg);
 }
 
-.repair-home-slides.owl-theme .owl-dots {
+.info-home-slides.owl-theme .owl-dots {
   line-height: .1;
   margin-top: 0;
   position: absolute;
@@ -2384,7 +2384,7 @@ section.route-section {
   bottom: 28%;
 }
 
-.repair-home-slides.owl-theme .owl-dots .owl-dot span {
+.info-home-slides.owl-theme .owl-dots .owl-dot span {
   width: 15px;
   height: 4px;
   margin: 0 3px;
@@ -2394,11 +2394,11 @@ section.route-section {
   border-radius: 0;
 }
 
-.repair-home-slides.owl-theme .owl-dots .owl-dot:hover span, .repair-home-slides.owl-theme .owl-dots .owl-dot:focus span {
+.info-home-slides.owl-theme .owl-dots .owl-dot:hover span, .info-home-slides.owl-theme .owl-dots .owl-dot:focus span {
   background: #ffffff;
 }
 
-.repair-home-slides.owl-theme .owl-dots .owl-dot.active span {
+.info-home-slides.owl-theme .owl-dots .owl-dot.active span {
   width: 30px;
   background: #ffffff;
 }
@@ -2445,7 +2445,7 @@ section.route-section {
 /* ==============
     Start Repair Boxes CSS 
 ==================================== */
-.repair-boxes-area {
+.info-boxes-area {
   background-color: transparent;
   position: relative;
   z-index: 1;
@@ -2456,7 +2456,7 @@ section.route-section {
   padding-bottom: 40px;
 }
 
-.repair-boxes-area::before {
+.info-boxes-area::before {
   content: '';
   position: absolute;
   left: 0;
@@ -2469,7 +2469,7 @@ section.route-section {
           transform: skewY(177deg);
 }
 
-.single-repair-box {
+.single-info-box {
   text-align: center;
   border-radius: 5px;
   background-color: #ffffff;
@@ -2481,14 +2481,14 @@ section.route-section {
   margin-bottom: 45px;
 }
 
-.single-repair-box i {
+.single-info-box i {
   font-size: 50px;
   color: #f06334;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
-.single-repair-box h3 {
+.single-info-box h3 {
   text-transform: uppercase;
   font-size: 18px;
   font-weight: 600;
@@ -2498,7 +2498,7 @@ section.route-section {
   transition: .5s;
 }
 
-.single-repair-box a {
+.single-info-box a {
   font-weight: 600;
   margin-top: 20px;
   color: #222222;
@@ -2507,13 +2507,13 @@ section.route-section {
   transition: .5s;
 }
 
-.single-repair-box a:hover, .single-repair-box a:focus {
+.single-info-box a:hover, .single-info-box a:focus {
   color: #4457c3;
   text-decoration: none;
   letter-spacing: 1.5px;
 }
 
-.single-repair-box .img-box img:first-child {
+.single-info-box .img-box img:first-child {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2527,7 +2527,7 @@ section.route-section {
   transition: .5s;
 }
 
-.single-repair-box .img-box img:last-child {
+.single-info-box .img-box img:last-child {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2542,7 +2542,7 @@ section.route-section {
   transition: .5s;
 }
 
-.single-repair-box::before, .single-repair-box::after {
+.single-info-box::before, .single-info-box::after {
   content: '';
   position: absolute;
   top: -40px;
@@ -2557,44 +2557,44 @@ section.route-section {
   visibility: hidden;
 }
 
-.single-repair-box::after {
+.single-info-box::after {
   top: auto;
   bottom: -40px;
   border-radius: 0 0 5px 5px;
 }
 
-.single-repair-box.active {
+.single-info-box.active {
   border-radius: 0;
   background-color: #4457c3;
 }
 
-.single-repair-box.active i {
+.single-info-box.active i {
   color: #ffffff;
 }
 
-.single-repair-box.active h3 {
+.single-info-box.active h3 {
   color: #ffffff;
 }
 
-.single-repair-box.active p {
+.single-info-box.active p {
   color: #ffffff;
 }
 
-.single-repair-box.active a {
+.single-info-box.active a {
   color: #ffffff;
 }
 
-.single-repair-box.active::before, .single-repair-box.active::after {
+.single-info-box.active::before, .single-info-box.active::after {
   opacity: 1;
   visibility: visible;
 }
 
-.single-repair-box.active .img-box img:first-child {
+.single-info-box.active .img-box img:first-child {
   opacity: 0;
   visibility: hidden;
 }
 
-.single-repair-box.active .img-box img:last-child {
+.single-info-box.active .img-box img:last-child {
   opacity: .35;
   visibility: visible;
 }
@@ -2605,27 +2605,27 @@ section.route-section {
 /* ==============
     Start Repair About CSS 
 ==================================== */
-.repair-about-content .section-title {
+.info-about-content .section-title {
   text-align: left;
   margin-bottom: 25px;
 }
 
-.repair-about-content .section-title h3 {
+.info-about-content .section-title h3 {
   margin-left: 0;
   margin-right: 0;
   padding-bottom: 0;
 }
 
-.repair-about-content .section-title h3::before {
+.info-about-content .section-title h3::before {
   display: none;
 }
 
-.repair-about-content .section-title p {
+.info-about-content .section-title p {
   margin-left: 0;
   margin-right: 0;
 }
 
-.repair-about-content ul {
+.info-about-content ul {
   padding-left: 0;
   list-style-type: none;
   overflow: hidden;
@@ -2634,7 +2634,7 @@ section.route-section {
   margin-right: -15px;
 }
 
-.repair-about-content ul li {
+.info-about-content ul li {
   float: left;
   width: 50%;
   margin-bottom: 15px;
@@ -2644,12 +2644,12 @@ section.route-section {
   font-weight: 600;
 }
 
-.repair-about-content ul li i {
+.info-about-content ul li i {
   color: #f06334;
   margin-right: 3px;
 }
 
-.repair-about-content .read-more-btn {
+.info-about-content .read-more-btn {
   display: inline-block;
   margin-top: 20px;
   text-transform: uppercase;
@@ -2658,28 +2658,28 @@ section.route-section {
   font-weight: 700;
 }
 
-.repair-about-content .read-more-btn:hover {
+.info-about-content .read-more-btn:hover {
   color: #4457c3;
   text-decoration: none;
 }
 
-.repair-about-image {
+.info-about-image {
   position: relative;
   width: 100%;
   height: 100%;
 }
 
-.repair-about-image img {
+.info-about-image img {
   position: absolute;
 }
 
-.repair-about-image img:nth-child(1) {
+.info-about-image img:nth-child(1) {
   left: 0;
   top: 0;
   z-index: 1;
 }
 
-.repair-about-image img:nth-child(2) {
+.info-about-image img:nth-child(2) {
   left: 0;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2692,18 +2692,18 @@ section.route-section {
   width: 350px;
 }
 
-.repair-about-image img:nth-child(3) {
+.info-about-image img:nth-child(3) {
   right: 0;
   bottom: 0;
   z-index: 1;
 }
 
-.repair-about-image img:nth-child(4) {
+.info-about-image img:nth-child(4) {
   right: 0;
   top: 0;
 }
 
-.repair-about-image img:nth-child(5) {
+.info-about-image img:nth-child(5) {
   left: 0;
   bottom: 0;
 }
@@ -2714,7 +2714,7 @@ section.route-section {
 /* ==============
     Start Repair Services CSS 
 ==================================== */
-.repair-services-area {
+.info-services-area {
   position: relative;
   z-index: 1;
   background-color: #4457c3;
@@ -2724,23 +2724,23 @@ section.route-section {
   background-repeat: repeat;
 }
 
-.repair-services-area .section-title span {
+.info-services-area .section-title span {
   color: #f06334;
 }
 
-.repair-services-area .section-title h3 {
+.info-services-area .section-title h3 {
   color: #ffffff;
 }
 
-.repair-services-area .section-title h3::before {
+.info-services-area .section-title h3::before {
   background: #ffffff;
 }
 
-.repair-services-area .section-title p {
+.info-services-area .section-title p {
   color: #ffffff;
 }
 
-.repair-services-area::before {
+.info-services-area::before {
   content: '';
   position: absolute;
   left: 0;
@@ -2751,7 +2751,7 @@ section.route-section {
   height: 11%;
 }
 
-.single-repair-services {
+.single-info-services {
   border: 1px solid #8096b0;
   padding: 30px;
   border-radius: 5px;
@@ -2759,14 +2759,14 @@ section.route-section {
   transition: .5s;
 }
 
-.single-repair-services i {
+.single-info-services i {
   color: #ffffff;
   font-size: 40px;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
-.single-repair-services h3 {
+.single-info-services h3 {
   font-size: 20px;
   font-weight: 600;
   -webkit-transition: .5s;
@@ -2776,14 +2776,14 @@ section.route-section {
   margin-top: 25px;
 }
 
-.single-repair-services p {
+.single-info-services p {
   color: #ffffff;
   opacity: .95;
   -webkit-transition: .5s;
   transition: .5s;
 }
 
-.single-repair-services .read-more-btn {
+.single-info-services .read-more-btn {
   margin-top: 20px;
   display: inline-block;
   color: #ffffff;
@@ -2792,36 +2792,36 @@ section.route-section {
   font-weight: 600;
 }
 
-.single-repair-services .read-more-btn:hover {
+.single-info-services .read-more-btn:hover {
   text-decoration: none;
 }
 
-.single-repair-services:hover, .single-repair-services:focus {
+.single-info-services:hover, .single-info-services:focus {
   background-color: #ffffff;
   border-color: #ffffff;
 }
 
-.single-repair-services:hover i, .single-repair-services:focus i {
+.single-info-services:hover i, .single-info-services:focus i {
   color: #f06334;
 }
 
-.single-repair-services:hover h3, .single-repair-services:focus h3 {
+.single-info-services:hover h3, .single-info-services:focus h3 {
   color: #222222;
 }
 
-.single-repair-services:hover p, .single-repair-services:focus p {
+.single-info-services:hover p, .single-info-services:focus p {
   color: #6F8BA4;
 }
 
-.single-repair-services:hover .read-more-btn, .single-repair-services:focus .read-more-btn {
+.single-info-services:hover .read-more-btn, .single-info-services:focus .read-more-btn {
   color: #4457c3;
 }
 
-.single-repair-services:hover .read-more-btn:hover, .single-repair-services:hover .read-more-btn:focus, .single-repair-services:focus .read-more-btn:hover, .single-repair-services:focus .read-more-btn:focus {
+.single-info-services:hover .read-more-btn:hover, .single-info-services:hover .read-more-btn:focus, .single-info-services:focus .read-more-btn:hover, .single-info-services:focus .read-more-btn:focus {
   color: #f06334;
 }
 
-.repair-services-inner {
+.info-services-inner {
   -webkit-box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
           box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
   border-radius: 5px;
@@ -2833,12 +2833,12 @@ section.route-section {
   padding-right: 25px;
 }
 
-.repair-services-inner .single-inner-services {
+.info-services-inner .single-inner-services {
   position: relative;
   padding-left: 60px;
 }
 
-.repair-services-inner .single-inner-services i {
+.info-services-inner .single-inner-services i {
   font-size: 40px;
   color: #4457c3;
   position: absolute;
@@ -2846,24 +2846,24 @@ section.route-section {
   top: 0;
 }
 
-.repair-services-inner .single-inner-services h3 {
+.info-services-inner .single-inner-services h3 {
   font-size: 17px;
   font-weight: 600;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
 
-.repair-services-inner .col-lg-4:nth-child(2) {
+.info-services-inner .col-lg-4:nth-child(2) {
   border-left: 1px solid #d1d9e2;
   border-right: 1px solid #d1d9e2;
 }
 
-.repair-services-slides.owl-theme .owl-dots {
+.info-services-slides.owl-theme .owl-dots {
   line-height: .1;
   margin-top: 45px;
 }
 
-.repair-services-slides.owl-theme .owl-dots .owl-dot span {
+.info-services-slides.owl-theme .owl-dots .owl-dot span {
   width: 15px;
   height: 4px;
   margin: 0 3px;
@@ -2873,11 +2873,11 @@ section.route-section {
   border-radius: 0;
 }
 
-.repair-services-slides.owl-theme .owl-dots .owl-dot:hover span, .repair-services-slides.owl-theme .owl-dots .owl-dot:focus span {
+.info-services-slides.owl-theme .owl-dots .owl-dot:hover span, .info-services-slides.owl-theme .owl-dots .owl-dot:focus span {
   background: #ffffff;
 }
 
-.repair-services-slides.owl-theme .owl-dots .owl-dot.active span {
+.info-services-slides.owl-theme .owl-dots .owl-dot.active span {
   width: 30px;
   background: #ffffff;
 }
@@ -2893,7 +2893,7 @@ section.route-section {
   z-index: 1;
 }
 
-.single-repair-feedback {
+.single-info-feedback {
   background-color: #f8fbff;
   padding: 30px;
   border-radius: 5px;
@@ -2901,14 +2901,14 @@ section.route-section {
   z-index: 1;
 }
 
-.single-repair-feedback .client-info {
+.single-info-feedback .client-info {
   margin-bottom: 25px;
   position: relative;
   padding-left: 90px;
   padding-top: 18px;
 }
 
-.single-repair-feedback .client-info img {
+.single-info-feedback .client-info img {
   display: inline-block !important;
   width: 70px !important;
   height: 70px;
@@ -2917,30 +2917,30 @@ section.route-section {
   top: 0;
 }
 
-.single-repair-feedback .client-info h3 {
+.single-info-feedback .client-info h3 {
   font-size: 18px;
   font-weight: 700;
   margin-bottom: 5px;
 }
 
-.single-repair-feedback .client-info span {
+.single-info-feedback .client-info span {
   display: block;
   color: #4457c3;
 }
 
-.single-repair-feedback ul {
+.single-info-feedback ul {
   padding-left: 0;
   list-style-type: none;
   margin-bottom: 0;
   margin-top: 15px;
 }
 
-.single-repair-feedback ul li {
+.single-info-feedback ul li {
   display: inline-block;
   color: #ff5202;
 }
 
-.single-repair-feedback .icofont-quote-left {
+.single-info-feedback .icofont-quote-left {
   position: absolute;
   top: 50%;
   -webkit-transform: translateY(-50%);
@@ -2953,12 +2953,12 @@ section.route-section {
   font-size: 180px;
 }
 
-.repair-feedback-slides.owl-theme .owl-dots {
+.info-feedback-slides.owl-theme .owl-dots {
   line-height: .1;
   margin-top: 45px;
 }
 
-.repair-feedback-slides.owl-theme .owl-dots .owl-dot span {
+.info-feedback-slides.owl-theme .owl-dots .owl-dot span {
   width: 15px;
   height: 4px;
   margin: 0 3px;
@@ -2968,11 +2968,11 @@ section.route-section {
   border-radius: 0;
 }
 
-.repair-feedback-slides.owl-theme .owl-dots .owl-dot:hover span, .repair-feedback-slides.owl-theme .owl-dots .owl-dot:focus span {
+.info-feedback-slides.owl-theme .owl-dots .owl-dot:hover span, .info-feedback-slides.owl-theme .owl-dots .owl-dot:focus span {
   background: #4457c3;
 }
 
-.repair-feedback-slides.owl-theme .owl-dots .owl-dot.active span {
+.info-feedback-slides.owl-theme .owl-dots .owl-dot.active span {
   width: 30px;
   background: #4457c3;
 }
@@ -3059,7 +3059,7 @@ section.route-section {
 /*=============================
 Start Repair Partner CSS
 ===============================*/
-.repair-partner-area {
+.info-partner-area {
   background-color: #edf5ff;
   text-align: center;
   border-top: 1px solid #dae7f7;
@@ -3083,29 +3083,29 @@ Start Repair Partner CSS
 /* ==============
     Start Repair Blog CSS 
 ==================================== */
-.repair-blog-area {
+.info-blog-area {
   padding-bottom: 70px;
 }
 
-.single-repair-blog-post {
+.single-info-blog-post {
   margin-bottom: 30px;
 }
 
-.single-repair-blog-post .blog-image {
+.single-info-blog-post .blog-image {
   overflow: hidden;
   position: relative;
 }
 
-.single-repair-blog-post .blog-image a {
+.single-info-blog-post .blog-image a {
   display: block;
 }
 
-.single-repair-blog-post .blog-image a img {
+.single-info-blog-post .blog-image a img {
   -webkit-transition: all 1.5s ease-out;
   transition: all 1.5s ease-out;
 }
 
-.single-repair-blog-post .blog-image .tags {
+.single-info-blog-post .blog-image .tags {
   position: absolute;
   left: 15px;
   z-index: 2;
@@ -3114,7 +3114,7 @@ Start Repair Partner CSS
   transition: .4s;
 }
 
-.single-repair-blog-post .blog-image .tags a {
+.single-info-blog-post .blog-image .tags a {
   background: #f06334;
   color: #ffffff;
   text-transform: uppercase;
@@ -3125,27 +3125,27 @@ Start Repair Partner CSS
   font-size: 13px;
 }
 
-.single-repair-blog-post .blog-content {
+.single-info-blog-post .blog-content {
   margin-top: 20px;
 }
 
-.single-repair-blog-post .blog-content h3 {
+.single-info-blog-post .blog-content h3 {
   line-height: 1.4;
   margin-bottom: 0;
   font-size: 20px;
   font-weight: 600;
 }
 
-.single-repair-blog-post .blog-content h3 a {
+.single-info-blog-post .blog-content h3 a {
   color: #222222;
 }
 
-.single-repair-blog-post .blog-content h3 a:hover, .single-repair-blog-post .blog-content h3 a:focus {
+.single-info-blog-post .blog-content h3 a:hover, .single-info-blog-post .blog-content h3 a:focus {
   color: #4457c3;
   text-decoration: none;
 }
 
-.single-repair-blog-post .blog-content ul {
+.single-info-blog-post .blog-content ul {
   list-style-type: none;
   margin-top: 15px;
   margin-bottom: 0;
@@ -3156,14 +3156,14 @@ Start Repair Partner CSS
   padding-left: 0;
 }
 
-.single-repair-blog-post .blog-content ul li {
+.single-info-blog-post .blog-content ul li {
   display: inline-block;
   color: #6F8BA4;
   position: relative;
   margin-right: 18px;
 }
 
-.single-repair-blog-post .blog-content ul li::before {
+.single-info-blog-post .blog-content ul li::before {
   content: '';
   position: absolute;
   top: 50%;
@@ -3175,38 +3175,38 @@ Start Repair Partner CSS
   left: -13px;
 }
 
-.single-repair-blog-post .blog-content ul li a {
+.single-info-blog-post .blog-content ul li a {
   color: #6F8BA4;
 }
 
-.single-repair-blog-post .blog-content ul li a:hover, .single-repair-blog-post .blog-content ul li a:focus {
+.single-info-blog-post .blog-content ul li a:hover, .single-info-blog-post .blog-content ul li a:focus {
   color: #4457c3;
   text-decoration: none;
 }
 
-.single-repair-blog-post .blog-content ul li:first-child::before {
+.single-info-blog-post .blog-content ul li:first-child::before {
   display: none;
 }
 
-.single-repair-blog-post .blog-content ul li:last-child {
+.single-info-blog-post .blog-content ul li:last-child {
   float: right;
   margin-right: 0;
 }
 
-.single-repair-blog-post .blog-content ul li:last-child::before {
+.single-info-blog-post .blog-content ul li:last-child::before {
   display: none;
 }
 
-.single-repair-blog-post .blog-content ul li:last-child a {
+.single-info-blog-post .blog-content ul li:last-child a {
   text-transform: uppercase;
   color: #f06334;
 }
 
-.single-repair-blog-post .blog-content ul li:last-child a:hover, .single-repair-blog-post .blog-content ul li:last-child a:focus {
+.single-info-blog-post .blog-content ul li:last-child a:hover, .single-info-blog-post .blog-content ul li:last-child a:focus {
   color: #4457c3;
 }
 
-.single-repair-blog-post:hover .blog-image a img, .single-repair-blog-post:focus .blog-image a img {
+.single-info-blog-post:hover .blog-image a img, .single-info-blog-post:focus .blog-image a img {
   -webkit-transform: scale(1.3);
           transform: scale(1.3);
 }
@@ -3217,13 +3217,13 @@ Start Repair Partner CSS
 /* ==============
     Start Repair Subscribe CSS 
 ==================================== */
-.repair-subscribe-area {
+.info-subscribe-area {
   position: relative;
   margin-top: -100px;
   margin-bottom: 100px;
 }
 
-.repair-subscribe-content {
+.info-subscribe-content {
   background-color: #4457c3;
   background-image: url(../img/services-bg.jpg);
   background-position: center center;
@@ -3237,24 +3237,24 @@ Start Repair Partner CSS
   padding-right: 30px;
 }
 
-.repair-subscribe-content h2 {
+.info-subscribe-content h2 {
   color: #ffffff;
   margin-bottom: 30px;
   font-size: 30px;
 }
 
-.repair-subscribe-content form {
+.info-subscribe-content form {
   overflow: hidden;
 }
 
-.repair-subscribe-content form .form-group {
+.info-subscribe-content form .form-group {
   float: left;
   margin-bottom: 0;
   width: 29%;
   padding-right: 15px;
 }
 
-.repair-subscribe-content form .form-group .input-newsletter {
+.info-subscribe-content form .form-group .input-newsletter {
   display: block;
   width: 100%;
   border: none;
@@ -3266,38 +3266,38 @@ Start Repair Partner CSS
   padding-top: 12px;
 }
 
-.repair-subscribe-content form .form-group .input-newsletter::-webkit-input-placeholder {
+.info-subscribe-content form .form-group .input-newsletter::-webkit-input-placeholder {
   color: #ffffff;
 }
 
-.repair-subscribe-content form .form-group .input-newsletter:-ms-input-placeholder {
+.info-subscribe-content form .form-group .input-newsletter:-ms-input-placeholder {
   color: #ffffff;
 }
 
-.repair-subscribe-content form .form-group .input-newsletter::-ms-input-placeholder {
+.info-subscribe-content form .form-group .input-newsletter::-ms-input-placeholder {
   color: #ffffff;
 }
 
-.repair-subscribe-content form .form-group .input-newsletter::placeholder {
+.info-subscribe-content form .form-group .input-newsletter::placeholder {
   color: #ffffff;
 }
 
-.repair-subscribe-content form .validation-danger, .repair-subscribe-content form .validation-success {
+.info-subscribe-content form .validation-danger, .info-subscribe-content form .validation-success {
   color: #ffffff;
 }
 
-.repair-subscribe-content form .btn {
+.info-subscribe-content form .btn {
   float: left;
   width: 13%;
 }
 
-.repair-subscribe-content form .btn-primary {
+.info-subscribe-content form .btn-primary {
   color: #ffffff;
   border-color: #f06334;
   background-color: #f06334;
 }
 
-.repair-subscribe-content form .btn-primary.disabled, .repair-subscribe-content form .btn-primary:disabled {
+.info-subscribe-content form .btn-primary.disabled, .info-subscribe-content form .btn-primary:disabled {
   color: #ffffff;
   background-color: #f06334;
   border-color: #f06334;
@@ -3309,14 +3309,14 @@ Start Repair Partner CSS
 /* ==============
     Start Repair Footer CSS 
 ==================================== */
-.repair-footer-area {
+.info-footer-area {
   padding-top: 100px;
   position: relative;
   z-index: 1;
   overflow: hidden;
 }
 
-.repair-footer-area::after {
+.info-footer-area::after {
   content: '';
   position: absolute;
   left: 0;
@@ -3454,32 +3454,32 @@ Start Repair Partner CSS
   margin-right: 0;
 }
 
-.repair-copyright-area {
+.info-copyright-area {
   background: #000000;
   margin-top: 100px;
   padding-top: 30px;
   padding-bottom: 30px;
 }
 
-.repair-copyright-area p {
+.info-copyright-area p {
   color: #ffffff;
   font-size: 15px;
 }
 
-.repair-copyright-area ul {
+.info-copyright-area ul {
   list-style-type: none;
   padding: 0;
   margin: 0;
 }
 
-.repair-copyright-area ul li {
+.info-copyright-area ul li {
   display: inline-block;
   position: relative;
   padding-right: 20px;
   font-size: 15px;
 }
 
-.repair-copyright-area ul li::before {
+.info-copyright-area ul li::before {
   content: '';
   position: absolute;
   left: -13px;
@@ -3489,16 +3489,16 @@ Start Repair Partner CSS
   height: 14px;
 }
 
-.repair-copyright-area ul li:first-child::before {
+.info-copyright-area ul li:first-child::before {
   display: none;
 }
 
-.repair-copyright-area ul li a {
+.info-copyright-area ul li a {
   display: inline-block;
   color: #f8f8f8;
 }
 
-.repair-copyright-area ul li a:hover {
+.info-copyright-area ul li a:hover {
   color: #f06334;
 }
 

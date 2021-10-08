@@ -429,19 +429,19 @@
   .top-header .location span {
     font-size: 13px;
   }
-  .repair-main-banner {
+  .info-main-banner {
     padding-top: 140px;
     padding-bottom: 270px;
   }
-  .repair-banner-content {
+  .info-banner-content {
     text-align: center;
   }
-  .repair-banner-content h2 {
+  .info-banner-content h2 {
     line-height: 1.4;
     font-size: 30px;
     margin-bottom: 16px;
   }
-  .repair-banner-content p {
+  .info-banner-content p {
     margin-bottom: 20px;
     font-size: 13px;
   }
@@ -459,46 +459,46 @@
     width: 75px;
     height: 75px;
   }
-  .repair-home-slides.owl-theme .owl-dots {
+  .info-home-slides.owl-theme .owl-dots {
     left: 0;
     bottom: 28%;
     right: 0;
   }
-  .repair-boxes-area {
+  .info-boxes-area {
     padding-bottom: 0;
   }
-  .repair-about-content ul li {
+  .info-about-content ul li {
     width: 100%;
     font-size: 14px;
   }
-  .repair-about-image {
+  .info-about-image {
     margin-top: 35px;
     text-align: center;
     padding-bottom: 45px;
     padding-top: 45px;
   }
-  .repair-about-image img:nth-child(2) {
+  .info-about-image img:nth-child(2) {
     border: 3px solid #f8fbff;
     width: 255px;
     position: relative;
   }
-  .repair-about-image img:nth-child(4), .repair-about-image img:nth-child(5) {
+  .info-about-image img:nth-child(4), .info-about-image img:nth-child(5) {
     display: none;
   }
-  .single-repair-services {
+  .single-info-services {
     padding: 15px;
     min-height: 150px;
   }
-  .single-repair-services h3 {
+  .single-info-services h3 {
     margin-bottom: 18px;
     margin-top: 20px;
   }
-  .repair-services-inner .col-lg-4:nth-child(2) {
+  .info-services-inner .col-lg-4:nth-child(2) {
     border: none;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .single-repair-feedback {
+  .single-info-feedback {
     padding: 20px;
   }
   .gallery-area {
@@ -514,37 +514,37 @@
   .single-gallery-item a img {
     width: 100%;
   }
-  .repair-blog-area {
+  .info-blog-area {
     padding-bottom: 30px;
   }
-  .single-repair-blog-post .blog-image a img {
+  .single-info-blog-post .blog-image a img {
     width: 100%;
   }
-  .repair-subscribe-area {
+  .info-subscribe-area {
     margin-top: -60px;
     margin-bottom: 60px;
   }
-  .repair-subscribe-content {
+  .info-subscribe-content {
     padding-top: 25px;
     padding-bottom: 25px;
     padding-left: 15px;
     padding-right: 15px;
   }
-  .repair-subscribe-content h2 {
+  .info-subscribe-content h2 {
     margin-bottom: 15px;
     font-size: 24px;
   }
-  .repair-subscribe-content form .form-group {
+  .info-subscribe-content form .form-group {
     width: 100%;
     padding-right: 0;
     margin-bottom: 15px;
   }
-  .repair-subscribe-content form .btn {
+  .info-subscribe-content form .btn {
     margin-top: 5px;
     width: 100%;
     padding: 12px 17px;
   }
-  .repair-footer-area {
+  .info-footer-area {
     padding-top: 60px;
   }
   .single-footer-widget {
@@ -553,14 +553,14 @@
   .single-footer-widget h3 {
     margin-bottom: 20px;
   }
-  .repair-copyright-area {
+  .info-copyright-area {
     margin-top: 30px;
     text-align: center;
   }
-  .repair-copyright-area .text-right {
+  .info-copyright-area .text-right {
     text-align: center !important;
   }
-  .repair-copyright-area ul {
+  .info-copyright-area ul {
     margin-top: 15px;
   }
   .pb-100 {
@@ -718,23 +718,23 @@
   .copyright-area {
     margin-top: 50px;
   }
-  .repair-main-banner {
+  .info-main-banner {
     padding-top: 160px;
     padding-bottom: 270px;
   }
-  .repair-banner-content {
+  .info-banner-content {
     text-align: center;
   }
-  .repair-banner-content h2 {
+  .info-banner-content h2 {
     line-height: 1.2;
     font-size: 40px;
     margin-bottom: 20px;
   }
-  .repair-banner-content p {
+  .info-banner-content p {
     font-size: 17px;
     margin: 0 auto 25px;
   }
-  .repair-home-slides.owl-theme .owl-dots {
+  .info-home-slides.owl-theme .owl-dots {
     left: 0;
     bottom: 24%;
     right: 0;
@@ -745,56 +745,56 @@
   .banner-video a {
     margin-left: -0;
   }
-  .repair-boxes-area {
+  .info-boxes-area {
     padding-bottom: 0;
   }
-  .single-repair-box::before, .single-repair-box::after {
+  .single-info-box::before, .single-info-box::after {
     display: none;
   }
-  .repair-about-image {
+  .info-about-image {
     text-align: center;
     margin-top: 35px;
   }
-  .repair-about-image img:nth-child(2) {
+  .info-about-image img:nth-child(2) {
     width: 350px;
     position: relative;
   }
-  .repair-about-image img:nth-child(4), .repair-about-image img:nth-child(5) {
+  .info-about-image img:nth-child(4), .info-about-image img:nth-child(5) {
     display: none;
   }
-  .repair-services-inner .col-lg-4:nth-child(2) {
+  .info-services-inner .col-lg-4:nth-child(2) {
     border: none;
     margin-top: 30px;
     margin-bottom: 30px;
   }
-  .single-repair-feedback {
+  .single-info-feedback {
     padding: 20px;
   }
   .gallery-area {
     padding-bottom: 50px;
   }
-  .repair-blog-area {
+  .info-blog-area {
     padding-bottom: 50px;
   }
-  .repair-subscribe-content form .form-group {
+  .info-subscribe-content form .form-group {
     width: 33%;
     padding-right: 15px;
   }
-  .repair-subscribe-content form .btn {
+  .info-subscribe-content form .btn {
     width: 21%;
     margin-top: 20px;
   }
-  .repair-subscribe-area {
+  .info-subscribe-area {
     margin-top: -80px;
     margin-bottom: 80px;
   }
-  .repair-footer-area {
+  .info-footer-area {
     padding-top: 80px;
   }
   .single-footer-widget {
     margin-bottom: 30px;
   }
-  .repair-copyright-area {
+  .info-copyright-area {
     margin-top: 50px;
   }
   .pb-100 {
@@ -818,13 +818,13 @@
   .testimonials-item {
     padding: 20px;
   }
-  .repair-home-slides.owl-theme .owl-dots {
+  .info-home-slides.owl-theme .owl-dots {
     left: 4.5%;
   }
 }
 
 @media only screen and (min-width: 1550px) {
-  .repair-home-slides.owl-theme .owl-dots {
+  .info-home-slides.owl-theme .owl-dots {
     left: 21.1%;
     bottom: 28%;
   }

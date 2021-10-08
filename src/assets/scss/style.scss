@@ -45,7 +45,7 @@ $white-color: #ffffff;
 $theme-color: #506cea;
 $secondary-color: #f06334;
 $orange-color: #f06334;
-$repair-main-color: #4457c3;
+$info-main-color: #4457c3;
 
 :root {
     scroll-behavior: initial;
@@ -2270,7 +2270,7 @@ button {
 /* ==============
     Start Repair Main Banner CSS 
 ==================================== */
-.repair-main-banner {
+.info-main-banner {
     background: {
         position: center center;
         size: cover;
@@ -2294,7 +2294,7 @@ button {
         opacity: .60;
     }
 }
-.repair-banner-content {
+.info-banner-content {
     h2 {
         color: $white-color;
         line-height: 1.2;
@@ -2325,7 +2325,7 @@ button {
         background-color: $white-color;
         border-radius: 50%;
         z-index: 1;
-        color: $repair-main-color;
+        color: $info-main-color;
         margin-left: -40px;
         position: relative;
         transition: .5s;
@@ -2344,7 +2344,7 @@ button {
             background: rgba(255, 255, 255, .5);
         }
         &:hover, &:focus {
-            background-color: $repair-main-color;
+            background-color: $info-main-color;
             color: $white-color;
         }
     }
@@ -2355,10 +2355,7 @@ button {
 .item-bg2 {
     background-image: url(../img/main-banner2.jpg);
 }
-.item-bg3 {
-    background-image: url(../img/main-banner3.jpg);
-}
-.repair-home-slides {
+.info-home-slides {
     &.owl-theme {
         .owl-dots {
             line-height: .1;
@@ -2413,7 +2410,7 @@ button {
 /* ==============
     Start Repair Boxes CSS 
 ==================================== */
-.repair-boxes-area {
+.info-boxes-area {
     background-color: transparent;
     position: relative;
     z-index: 1;
@@ -2438,7 +2435,7 @@ button {
         transform: skewY(177deg);
     }
 }
-.single-repair-box {
+.single-info-box {
     min-height: 500px;
     text-align: center;
     border-radius: 5px;
@@ -2474,7 +2471,7 @@ button {
         transition: .5s;
 
         &:hover, &:focus {
-            color: $repair-main-color;
+            color: $info-main-color;
             text-decoration: none;
             letter-spacing: 1.5px;
         }
@@ -2513,7 +2510,7 @@ button {
         left: 0;
         height: 40px;
         width: 100%;
-        background: $repair-main-color;
+        background: $info-main-color;
         border-radius: 5px 5px 0 0;
         transition: .5s;
         opacity: 0;
@@ -2526,7 +2523,7 @@ button {
     }
     &.active {
         border-radius: 0;
-        background-color: $repair-main-color;
+        background-color: $info-main-color;
 
         i {
             color: $white-color;
@@ -2566,7 +2563,7 @@ button {
 /* ==============
     Start Repair About CSS 
 ==================================== */
-.repair-about-content {
+.info-about-content {
     .section-title {
         text-align: left;
         margin-bottom: 25px;
@@ -2625,12 +2622,12 @@ button {
             weight: 700;
         }
         &:hover {
-            color: $repair-main-color;
+            color: $info-main-color;
             text-decoration: none;
         }
     }
 }
-.repair-about-image {
+.info-about-image {
     position: relative;
     width: 100%;
     height: 100%;
@@ -2677,10 +2674,10 @@ button {
 /* ==============
     Start Repair Services CSS 
 ==================================== */
-.repair-services-area {
+.info-services-area {
     z-index: 1;
     background: {
-        color: $repair-main-color;
+        color: $info-main-color;
         image: url(../img/pattern-3.png);
         position: center center;
         size: cover;
@@ -2712,7 +2709,7 @@ button {
         height: 11%;
     }
 }
-.single-repair-services {
+.single-info-services {
     border: 1px solid #8096b0;
     padding: 30px;
     border-radius: 5px;
@@ -2767,7 +2764,7 @@ button {
             color: $pcolor;
         }
         .read-more-btn {
-            color: $repair-main-color;
+            color: $info-main-color;
 
             &:hover, &:focus {
                 color: $orange-color;
@@ -2775,7 +2772,7 @@ button {
         }
     }
 }
-.repair-services-inner {
+.info-services-inner {
     box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
     border-radius: 5px;
     margin-top: 80px;
@@ -2792,7 +2789,7 @@ button {
 
         i {
             font-size: 40px;
-            color: $repair-main-color;
+            color: $info-main-color;
             position: absolute;
             left: 0;
             top: 0;
@@ -2817,7 +2814,7 @@ button {
         }
     }
 }
-.repair-services-slides {
+.info-services-slides {
     &.owl-theme {
         .owl-dots {
             line-height: .1;
@@ -2859,7 +2856,7 @@ button {
     position: relative;
     z-index: 1;
 }
-.single-repair-feedback {
+.single-info-feedback {
     background-color: #f8fbff;
     padding: 30px;
     border-radius: 5px;
@@ -2890,7 +2887,7 @@ button {
         }
         span {
             display: block;
-            color: $repair-main-color;
+            color: $info-main-color;
         }
     }
     ul {
@@ -2917,7 +2914,7 @@ button {
         font-size: 180px;
     }
 }
-.repair-feedback-slides {
+.info-feedback-slides {
     &.owl-theme {
         .owl-dots {
             line-height: .1;
@@ -2934,13 +2931,13 @@ button {
                 }
                 &:hover, &:focus {
                     span {
-                        background: $repair-main-color;
+                        background: $info-main-color;
                     }
                 }
                 &.active {
                     span {
                         width: 30px;
-                        background: $repair-main-color;
+                        background: $info-main-color;
                     }
                 }
             }
@@ -3024,9 +3021,9 @@ button {
             weight: 500;
         }
         &:hover, &:focus, &.active {
-            background-color: $repair-main-color;
+            background-color: $info-main-color;
             color: $white-color;
-            border-color: $repair-main-color;
+            border-color: $info-main-color;
         }
     }
 }
@@ -3038,7 +3035,7 @@ button {
 /*=============================
 Start Repair Partner CSS
 ===============================*/
-.repair-partner-area {
+.info-partner-area {
     background-color: #edf5ff;
     text-align: center;
     border-top: 1px solid #dae7f7;
@@ -3064,10 +3061,10 @@ Start Repair Partner CSS
 /* ==============
     Start Repair Blog CSS 
 ==================================== */
-.repair-blog-area {
+.info-blog-area {
     padding-bottom: 70px;
 }
-.single-repair-blog-post {
+.single-info-blog-post {
     margin-bottom: 30px;
 
     .blog-image {
@@ -3116,7 +3113,7 @@ Start Repair Partner CSS
                 color: $dark-color;
 
                 &:hover, &:focus {
-                    color: $repair-main-color;
+                    color: $info-main-color;
                     text-decoration: none;
                 }
             }
@@ -3149,14 +3146,14 @@ Start Repair Partner CSS
                     transform: translateY(-50%);
                     width: 7px;
                     height: 2px;
-                    background: $repair-main-color;
+                    background: $info-main-color;
                     left: -13px;
                 }
                 a {
                     color: $pcolor;
 
                     &:hover, &:focus {
-                        color: $repair-main-color;
+                        color: $info-main-color;
                         text-decoration: none;
                     }
                 }
@@ -3177,7 +3174,7 @@ Start Repair Partner CSS
                         color: $orange-color;
 
                         &:hover, &:focus {
-                            color: $repair-main-color;
+                            color: $info-main-color;
                         }
                     }
                 }
@@ -3201,16 +3198,16 @@ Start Repair Partner CSS
 /* ==============
     Start Repair Subscribe CSS 
 ==================================== */
-.repair-subscribe-area {
+.info-subscribe-area {
     position: relative;
     margin: {
         top: -100px;
         bottom: 100px;
     }
 }
-.repair-subscribe-content {
+.info-subscribe-content {
     background: {
-        color: $repair-main-color;
+        color: $info-main-color;
         position: center center;
         size: cover;
         repeat: no-repeat;
@@ -3284,7 +3281,7 @@ Start Repair Partner CSS
 /* ==============
     Start Repair Footer CSS 
 ==================================== */
-.repair-footer-area {
+.info-footer-area {
     padding-top: 100px;
     position: relative;
     z-index: 1;
@@ -3315,7 +3312,7 @@ Start Repair Partner CSS
                 weight: 700;
             }
             span {
-                color: $repair-main-color;
+                color: $info-main-color;
                 display: inline-block;
             }
         }
@@ -3438,7 +3435,7 @@ Start Repair Partner CSS
         }
     }
 }
-.repair-copyright-area {
+.info-copyright-area {
 	background: #000000;
     margin-top: 100px;
     padding: {

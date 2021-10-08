@@ -35,17 +35,17 @@ class HomeSlides extends React.Component {
             <section id="home">
                 <React.Fragment>
                     <OwlCarousel
-                        className="repair-home-slides owl-carousel owl-theme"
+                        className="info-home-slides owl-carousel owl-theme"
                         {...options}
                     >
-                        <div className="repair-main-banner item-bg1">
+                        <div className="info-main-banner item-bg1">
                             <div className="container">
                                 <div className="row align-items-center">
                                     <VisibilitySensor>
                                         {({ isVisible }) => (
                                             <React.Fragment>
                                                 <div className="col-lg-7">
-                                                    <div className="repair-banner-content">
+                                                    <div className="info-banner-content">
                                                         <h2
                                                             className={
                                                                 isVisible

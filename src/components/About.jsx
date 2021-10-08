@@ -15,11 +15,11 @@ class About extends React.Component {
 
     render() {
         return (
-            <section id="about" className="repair-about-area ptb-100">
+            <section id="about" className="info-about-area ptb-100">
                 <div className="container">
                     <div className="row">
                         <div className="col-lg-6">
-                            <div className="repair-about-content">
+                            <div className="info-about-content">
                                 <div className="section-title">
                                     <span>About Us</span>
                                     <h3>
@@ -72,7 +72,7 @@ class About extends React.Component {
                         </div>
 
                         <div className="col-lg-6">
-                            <div className="repair-about-image">
+                            <div className="info-about-image">
                                 <img
                                     src={require("../assets/img/fiber-3.jpg")}
                                     className="wow fadeInDown"

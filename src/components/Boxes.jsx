@@ -1,13 +1,13 @@
 import React from "react"
 
-class RepairBoxes extends React.Component {
+class Boxes extends React.Component {
     render() {
         return (
-            <section className="repair-boxes-area">
+            <section className="info-boxes-area">
                 <div className="container">
                     <div className="row m-0">
                         <div className="col-lg-4 col-md-6 p-0">
-                            <div className="single-repair-box">
+                            <div className="single-info-box">
                                 <h3>THE PROBLEM</h3>
                                 <p>
                                     Imperfections as core eccentricity in
@@ -19,7 +19,6 @@ class RepairBoxes extends React.Component {
                                     src={require("../assets/img/core.png")}
                                     alt="core"
                                 />
-                                {/* <Link to="#">Read More</Link> */}
 
                                 <div className="img-box">
                                     <img
@@ -34,7 +33,7 @@ class RepairBoxes extends React.Component {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 offset-lg-0 offset-md-3 p-0">
-                            <div className="single-repair-box active">
+                            <div className="single-info-box active">
                                 <h3>THE SOLUTION</h3>
                                 <p>
                                     The MicroAlign fiber positioning provides
@@ -46,7 +45,6 @@ class RepairBoxes extends React.Component {
                                     src={require("../assets/img/solution.png")}
                                     alt="solution"
                                 />
-                                {/* <Link to="#">Read More</Link> */}
 
                                 <div className="img-box">
                                     <img
@@ -61,7 +59,7 @@ class RepairBoxes extends React.Component {
                             </div>
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
-                            <div className="single-repair-box">
+                            <div className="single-info-box">
                                 <h3>THE ALIGNMENT STAGE</h3>
                                 <p>
                                     The MicroAlign standalone stage is provided
@@ -73,7 +71,6 @@ class RepairBoxes extends React.Component {
                                     src={require("../assets/img/stage.png")}
                                     alt="core"
                                 />
-                                {/* <Link to="#">Read More</Link> */}
 
                                 <div className="img-box">
                                     <img
@@ -94,4 +91,4 @@ class RepairBoxes extends React.Component {
     }
 }
 
-export default RepairBoxes
+export default Boxes

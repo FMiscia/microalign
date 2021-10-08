@@ -1,6 +1,6 @@
 {
-    "name": "axolot",
-    "version": "1.6.0",
+    "name": "MicroAlign",
+    "version": "1.0.0",
     "private": true,
     "homepage": "/",
     "dependencies": {

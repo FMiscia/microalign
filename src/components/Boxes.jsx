@@ -10,14 +10,14 @@ class Boxes extends React.Component {
                             <div className="single-info-box">
                                 <h3>THE PROBLEM</h3>
                                 <p>
-                                    Imperfections as core eccentricity in
-                                    fiber-arrays compromises the efficient
-                                    optical connection between photonic
-                                    integrated circuits and the optical fibers.
+                                    Efficient connection of optical fiber arrays
+                                    and photonic chips requires sub-micron
+                                    assembly, a cost and time consuming
+                                    operation.
                                 </p>
                                 <img
-                                    src={require("../assets/img/core.png")}
-                                    alt="core"
+                                    src={require("../assets/img/problem.png")}
+                                    alt="problem"
                                 />
 
                                 <div className="img-box">
@@ -36,10 +36,12 @@ class Boxes extends React.Component {
                             <div className="single-info-box active">
                                 <h3>THE SOLUTION</h3>
                                 <p>
-                                    The MicroAlign fiber positioning provides
-                                    per fiber alignment capabilities and
-                                    parallel control for simultaneous alignment
-                                    of all the fibers.
+                                    The MicroAlign fiber positioning method
+                                    provides per fiber alignment capabilities
+                                    and simultaneous control for all the fibers.
+                                    The proposed method relax assembly
+                                    tolerances and can suppress misalignment due
+                                    to fiber eccentricity.
                                 </p>
                                 <img
                                     src={require("../assets/img/solution.png")}
@@ -60,15 +62,16 @@ class Boxes extends React.Component {
                         </div>
                         <div className="col-lg-4 col-md-6 p-0">
                             <div className="single-info-box">
-                                <h3>THE ALIGNMENT STAGE</h3>
+                                <h3>THE PRODUCT VISION</h3>
                                 <p>
-                                    The MicroAlign standalone stage is provided
-                                    with electronics and software control for
-                                    fast and accurate active alignment
-                                    capabilities
+                                    The MicroAlign standalone stage will be
+                                    provided with control electronics and
+                                    software for fast and accurate fiber array
+                                    alignment, in wafer testing and photonic
+                                    assembly equipment.
                                 </p>
                                 <img
-                                    src={require("../assets/img/stage.png")}
+                                    src={require("../assets/img/vision.png")}
                                     alt="core"
                                 />
 

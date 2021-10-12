@@ -86,7 +86,7 @@ Team.propTypes = {
 //Default Props
 Team.defaultProps = {
     sectionName: "Team",
-    sectionTitle: "Our Team Members",
+    sectionTitle: "Team Members",
     sectionDescription: "",
 
     teamsData: [
@@ -94,7 +94,7 @@ Team.defaultProps = {
             linkedinLink:
                 "https://nl.linkedin.com/in/simone-cardarelli-67536115a",
             name: "Simone Caldarelli",
-            designation: "CEO and CO-FOUNDER",
+            designation: "Director and CO-FOUNDER",
             image: require("../assets/img/Simone.jfif"),
         },
         {
@@ -108,7 +108,7 @@ Team.defaultProps = {
                 "https://nl.linkedin.com/in/nicola-calabretta-23142119",
             name: "Nicola Calabretta",
             designation: "Optical system – CO-FOUNDER",
-            image: require("../assets/img/Nicola.png"),
+            image: require("../assets/img/Nicola.jpg"),
         },
         {
             linkedinLink: "https://nl.linkedin.com/in/jaap-verheggen",

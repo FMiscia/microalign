@@ -30,10 +30,7 @@ const options = {
 class Services extends React.Component {
     render() {
         return (
-            <section
-                id="services"
-                className="info-services-area ptb-100"
-            >
+            <section id="services" className="info-services-area ptb-100">
                 <div className="container pb-15">
                     <div className="section-title text-center">
                         <h3>What we do</h3>
@@ -65,27 +62,17 @@ class Services extends React.Component {
                         >
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-info-services">
-                                    <h3>Si-Photonics wafer probe stations </h3>
+                                    <h3>Photonic testing</h3>
                                 </div>
                             </div>
-
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-info-services">
-                                    <h3>Fiber alignment manufacturing</h3>
+                                    <h3>Photonic assembly</h3>
                                 </div>
                             </div>
-
                             <div className="col-lg-12 col-md-12">
                                 <div className="single-info-services">
-                                    <h3>
-                                        Fiber array-to-photonic chip assembly
-                                    </h3>
-                                </div>
-                            </div>
-
-                            <div className="col-lg-12 col-md-12">
-                                <div className="single-info-services">
-                                    <h3>Beam steering for optical switching</h3>
+                                    <h3>Fiber array manufacturing</h3>
                                 </div>
                             </div>
                         </OwlCarousel>

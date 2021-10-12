@@ -22,15 +22,13 @@ class About extends React.Component {
                             <div className="info-about-content">
                                 <div className="section-title">
                                     <span>About Us</span>
-                                    <h3>
-                                        We are a spin-off of the Eindhoven
-                                        University of Technology (TU/E).
-                                    </h3>
+                                    <h3>The MicroAlign origins.</h3>
                                     <p>
-                                        MicroAlign has been founded in April
-                                        2021 in Eindhoven, the Netherlands, and
-                                        is a spin-off of the Eindhoven
-                                        University of Technology (TU/E).
+                                        MicroAlign technology is based on the
+                                        results of a PhD project performed at
+                                        TU/E, and part of the MEMPHIS II program
+                                        funded by the Dutch Research Council
+                                        (NOW).
                                     </p>
                                 </div>
 
@@ -47,25 +45,30 @@ class About extends React.Component {
 
                                 <p>
                                     <i>
-                                        MicroAlign technology is based on the
-                                        results of the PhD project performed
-                                        from Simone Cardarelli within the TU/E.
                                         A micro-positioning system capable of
                                         aligning multiple optical fibers has
-                                        been invented and represents the core of
-                                        the MicroAlign technology. The potential
-                                        of the alignment system in relaxing
-                                        assembly tolerances in the photonic
-                                        manufacturing industry has motivated the
-                                        team to explore the market potential of
-                                        the new technology. MicroAlign has been
-                                        awarded in 2019 with the Take-Off phase
-                                        1 grant from NWO, with the MRE
-                                        Metropoolregio Eindhoven in 2020, and
-                                        with the Take-Off phase 2 grant in 2021.
-                                        MicroAlign is now developing the
-                                        micro-positioning technology to the
-                                        industry needs level.
+                                        been invented during the project and
+                                        represents the core of the MicroAlign
+                                        technology. The potential of the
+                                        alignment system in relaxing assembly
+                                        tolerances in the photonic manufacturing
+                                        industry has motivated the team to
+                                        explore the market potential of the new
+                                        technology. MicroAlign has been awarded
+                                        in 2019 with the Take-Off phase 1 grant
+                                        from NWO, with the MRE Metropoolregio
+                                        Eindhoven in 2020, and with the Take-Off
+                                        phase 2 grant in 2021. MicroAlign is now
+                                        developing the micro-positioning
+                                        technology towards the industry
+                                        requirements, for both photonic testing
+                                        and assembly applications. MicroAlign
+                                        operates with access to the highly
+                                        equipped TU/E facilities and to the
+                                        Nanolab Eindhoven cleanroom, and can
+                                        leverage on the developed photonic,
+                                        electronic, and mechanical knowledge to
+                                        propose a quality solution.
                                     </i>
                                 </p>
                             </div>
@@ -74,7 +77,7 @@ class About extends React.Component {
                         <div className="col-lg-6">
                             <div className="info-about-image">
                                 <img
-                                    src={require("../assets/img/fiber-3.jpg")}
+                                    src={require("../assets/img/IPOBuilding.jpg")}
                                     className="wow fadeInDown"
                                     alt="fiber"
                                 />

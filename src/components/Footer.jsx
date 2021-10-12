@@ -105,16 +105,16 @@ class Footer extends React.Component {
 
                                 <ul className="contact-list">
                                     <li>
-                                        <span>Legal Address:</span> Groene Loper
-                                        3, 5612AE, Eindhoven, NL
+                                        <span>Legal Address:</span>
+                                        <br />
+                                        Groene Loper 3, 5612AE, Eindhoven, NL
                                     </li>
                                     <li>
-                                        <span>Visiting Address:</span>Het
-                                        Eeuwsel 57, 5612 AZ, Eindhoven, NL
-                                    </li>
-                                    <li>
-                                        <span>Delivery Address:</span>Het
-                                        Eeuwsel 57, 5612 AZ, Eindhoven, NL
+                                        <span>
+                                            Visiting and Delivery address:
+                                        </span>
+                                        <br />
+                                        Het Eeuwsel 57, 5612 AZ, Eindhoven, NL
                                     </li>
                                 </ul>
                             </div>

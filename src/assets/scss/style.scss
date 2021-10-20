@@ -2442,7 +2442,7 @@ button {
     background-color: $white-color;
     position: relative;
     z-index: 1;
-    box-shadow: 0 2px 48px 0 rgba(0, 0, 0, 0.08);
+    box-shadow: 0 48px 48px 0 rgba(0, 0, 0, 0.08);
     padding: 45px 25px;
     margin-bottom: 45px;
 
@@ -2510,7 +2510,7 @@ button {
         left: 0;
         height: 40px;
         width: 100%;
-        background: $info-main-color;
+        background: $white-color;
         border-radius: 5px 5px 0 0;
         transition: .5s;
         opacity: 0;
@@ -2523,35 +2523,12 @@ button {
     }
     &.active {
         border-radius: 0;
-        background-color: $info-main-color;
-
-        i {
-            color: $white-color;
-        }
-        h3 {
-            color: $white-color;
-        }
-        p {
-            color: $white-color;
-        }
-        a {
-            color: $white-color;
-        }
+        background-color: $white-color;
+        margin-left: 8px;
+        margin-right: 8px;
         &::before, &::after {
             opacity: 1;
             visibility: visible;
-        }
-        .img-box {
-            img {
-                &:first-child {
-                    opacity: 0;
-                    visibility: hidden;
-                }
-                &:last-child {
-                    opacity: .35;
-                    visibility: visible;
-                }
-            }
         }
     }
 }

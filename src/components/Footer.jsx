@@ -116,6 +116,11 @@ class Footer extends React.Component {
                                         <br />
                                         Het Eeuwsel 57, 5612 AZ, Eindhoven, NL
                                     </li>
+                                    <li>
+                                        <span>Email contact:</span>
+                                        <br />
+                                        info@microalign.nl
+                                    </li>
                                 </ul>
                             </div>
                         </div>

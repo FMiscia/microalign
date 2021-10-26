@@ -119,7 +119,7 @@ class HomeSlides extends React.Component {
                     <ModalVideo
                         channel="youtube"
                         isOpen={this.state.isOpen}
-                        videoId="Mh1YErsaiGk"
+                        videoId="0k8VqYhjzNo"
                         onClose={() => this.setState({ isOpen: false })}
                     />
                 </React.Fragment>

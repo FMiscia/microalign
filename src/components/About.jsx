@@ -26,9 +26,9 @@ class About extends React.Component {
                                     <p>
                                         MicroAlign technology is based on the
                                         results of a PhD project performed at
-                                        TU/E, and part of the MEMPHIS II program
+                                        TU/e, and part of the MEMPHIS II program
                                         funded by the Dutch Research Council
-                                        (NOW).
+                                        (NWO).
                                     </p>
                                 </div>
 
@@ -64,7 +64,7 @@ class About extends React.Component {
                                         requirements, for both photonic testing
                                         and assembly applications. MicroAlign
                                         operates with access to the highly
-                                        equipped TU/E facilities and to the
+                                        equipped TU/e facilities and to the
                                         Nanolab Eindhoven cleanroom, and can
                                         leverage on the developed photonic,
                                         electronic, and mechanical knowledge to

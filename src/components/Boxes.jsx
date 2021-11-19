@@ -39,9 +39,9 @@ class Boxes extends React.Component {
                                     The MicroAlign fiber positioning method
                                     provides per fiber alignment capabilities
                                     and simultaneous control for all the fibers.
-                                    The proposed method relax assembly
-                                    tolerances and can suppress misalignment due
-                                    to fiber eccentricity.
+                                    The proposed method can relax assembly
+                                    tolerances and suppress misalignment due to
+                                    fiber eccentricity.
                                 </p>
                                 <img
                                     src={require("../assets/img/solution.png")}

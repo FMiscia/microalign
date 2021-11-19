@@ -728,6 +728,16 @@ $value_six: 1550px;
 	.pb-100 {
 		padding-bottom: 50px;
 	}
+
+	.single-info-box {
+		&.active {
+			margin-left: 0;
+			margin-right: 0;
+		}
+		&::before, &::after {
+			top: 0;
+		}
+	}
 }
 
 // Min width 768px to Max width 991px

@@ -121,7 +121,7 @@ class NavBar extends Component {
                                         className="nav-link"
                                         onClick={this.closeNavbar}
                                     >
-                                        News
+                                        News and Events
                                     </Link>
                                 </React.Fragment>
                             </Nav>

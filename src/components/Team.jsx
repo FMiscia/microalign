@@ -128,6 +128,12 @@ Team.defaultProps = {
             designation: "Financial advisor and strategy developer",
             image: require("../assets/img/Cees.jfif"),
         },
+        {
+            linkedinLink: "https://www.linkedin.com/in/antonio-astorino/",
+            name: "Antonio Astorino",
+            designation: "R&D specialist",
+            image: require("../assets/img/Antonio.jfif"),
+        },
     ],
 }
 

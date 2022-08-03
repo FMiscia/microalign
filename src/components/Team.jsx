@@ -134,6 +134,13 @@ Team.defaultProps = {
             designation: "R&D specialist",
             image: require("../assets/img/Antonio.jfif"),
         },
+        {
+            linkedinLink:
+                "https://www.linkedin.com/in/petra-wicherink-12638346/",
+            name: "Petra Wicherink",
+            designation: "Marketing & Communication",
+            image: require("../assets/img/Petra.jpg"),
+        },
     ],
 }
 

@@ -1,6 +1,5 @@
 import React from "react"
 import { Route } from "react-router-dom"
-import Page from "react-page-loading"
 
 //Package CSS
 import "bootstrap/dist/css/bootstrap.css"
@@ -13,9 +12,6 @@ import "./assets/scss/responsive.scss"
 
 //Component Import
 import Home from "./pages/Home"
-// import About from "./components/About"
-// import Services from "./components/Services"
-// import Team from "./components/Team"
 import ScrollUpBtn from "./components/ScrollUpBtn"
 
 import { TransitionGroup, CSSTransition } from "react-transition-group"
@@ -28,24 +24,22 @@ const App = () => {
     return (
         <div className="App">
             <div>
-                <Page loader={"bar"} color={"#506CEA"} size={9}>
-                    <Route
-                        render={({ location }) => (
-                            <TransitionGroup className="transition-group">
-                                <CSSTransition
-                                    key={location.key}
-                                    timeout={{ enter: 900, exit: 900 }}
-                                    classNames="fade"
-                                >
-                                    <section className="route-section">
-                                        <Home />
-                                    </section>
-                                </CSSTransition>
-                            </TransitionGroup>
-                        )}
-                    />
-                    <ScrollUpBtn />
-                </Page>
+                <Route
+                    render={({ location }) => (
+                        <TransitionGroup className="transition-group">
+                            <CSSTransition
+                                key={location.key}
+                                timeout={{ enter: 900, exit: 900 }}
+                                classNames="fade"
+                            >
+                                <section className="route-section">
+                                    <Home />
+                                </section>
+                            </CSSTransition>
+                        </TransitionGroup>
+                    )}
+                />
+                <ScrollUpBtn />
             </div>
         </div>
     )

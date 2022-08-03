@@ -20,7 +20,7 @@ const customStyles = {
 }
 
 const BASE_URL = "https://www.microalign.nl/manage/admin"
-const TOKEN = "9a304da6039e2f2ecce4f62060d9bd"
+const TOKEN = ""
 
 const Blog = (props) => {
     const [modalIsOpen, setIsOpen] = React.useState(false)
@@ -30,7 +30,15 @@ const Blog = (props) => {
     useEffect(() => {
         fetch(`${BASE_URL}/api/collections/get/News?token=${TOKEN}`)
             .then((res) => res.json())
-            .then((res) => setNews(res.entries.filter((it) => it.published)))
+            .then((res) =>
+                setNews(
+                    res.entries
+                        .sort(function (a, b) {
+                            return new Date(b.date) - new Date(a.date)
+                        })
+                        .filter((it) => it.published)
+                )
+            )
             .catch((e) => console.log(e))
     }, [])
 
